@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set environment variable
-os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]  # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = "AIzaSyAkmDn9wc6VPbUCDOEBzqFmhgvnzy2hW6A"  # Replace with your actual API key
 
 def generate_text(content):
     # Extract the country from the prompt
